@@ -1,0 +1,95 @@
+---
+title: "Code Book"
+
+
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+This is the Code Book for the program run_analysis.R. 
+
+#### Identifiers:
+
+* `subject` -      Interger, ID of individuals participating in the study
+* `activity` -      Factor with 6 levels:
+
+        + WALKING
+        + WALKING_UPSTAIRS
+        + WALKING_DOWNSTAIRS
+        + SITTING
+        + STANDING
+        + LAYING
+        
+#### Measurements:        
+ * `TimeBodyAccelerometerMean-X ` -    numeric  
+ * `TimeBodyAccelerometerMean-Y ` -  numeric 
+ * `TimeBodyAccelerometerMean-Z` - numeric 
+ * `TimeBodyAccelerometerSTD-X ` - numeric 
+ * `TimeBodyAccelerometerSTD-Y` - numeric 
+ * `TimeBodyAccelerometerSTD-Z` - numeric 
+ * `TimeGravityAccelerometerMean-X` - numeric 
+ * `TimeGravityAccelerometerMean-Y` - numeric 
+ * `TimeGravityAccelerometerMean-Z` - numeric 
+ * `TimeGravityAccelerometerSTD-X` - numeric 
+ * `TimeGravityAccelerometerSTD-Y` - numeric 
+ * `TimeGravityAccelerometerSTD-Z` - numeric 
+ * `TimeBodyAccelerometerJerkMean-X` -  numeric 
+ * `TimeBodyAccelerometerJerkMean-Y` - numeric 
+ * `TimeBodyAccelerometerJerkMean-Z ` - numeric 
+ * `TimeBodyAccelerometerJerkSTD-X` - numeric 
+ * `TimeBodyAccelerometerJerkSTD-Y` - numeric 
+ * `TimeBodyAccelerometerJerkSTD-Z` - numeric 
+ * `TimeBodyGyroscopeMean-X` - numeric 
+ * `TimeBodyGyroscopeMean-Y` - numeric 
+ * `TimeBodyGyroscopeMean-Z` - numeric 
+ * `TimeBodyGyroscopeSTD-X` - numeric 
+ * `TimeBodyGyroscopeSTD-Y` - numeric 
+ * `TimeBodyGyroscopeSTD-Z` - numeric 
+ * `TimeBodyGyroscopeJerkMean-X ` - numeric 
+ * `TimeBodyGyroscopeJerkMean-Y` - numeric 
+ * `TimeBodyGyroscopeJerkMean-Z ` - numeric 
+ * `TimeBodyGyroscopeJerkSTD-X` - numeric 
+ * `TimeBodyGyroscopeJerkSTD-Y` -  numeric 
+ * `TimeBodyGyroscopeJerkSTD-Z` - numeric 
+ * `TimeBodyAccelerometerMagnitudeMean ` - numeric 
+ * `TimeBodyAccelerometerMagnitudeSTD` - numeric 
+ * `TimeGravityAccelerometerMagnitudeMean ` - numeric 
+ * `TimeGravityAccelerometerMagnitudeSTD ` - numeric 
+ * `TimeBodyAccelerometerJerkMagnitudeMean` -  numeric 
+ * `TimeBodyAccelerometerJerkMagnitudeSTD` - numeric 
+ * `TimeBodyGyroscopeMagnitudeMean ` - numeric 
+ * `TimeBodyGyroscopeMagnitudeSTD ` - numeric 
+ * `TimeBodyGyroscopeJerkMagnitudeMean ` - numeric 
+ * `TimeBodyGyroscopeJerkMagnitudeSTD ` - numeric 
+ * `FrequencyBodyAccelerometerMean-X` - numeric 
+ * `FrequencyBodyAccelerometerMean-Y` - numeric 
+ * `FrequencyBodyAccelerometerMean-Z` - numeric 
+ * `FrequencyBodyAccelerometerSTD-X ` - numeric 
+ * `FrequencyBodyAccelerometerSTD-Y ` - numeric 
+ * `FrequencyBodyAccelerometerSTD-Z` - numeric 
+ * `FrequencyBodyAccelerometerJerkMean-X` - numeric 
+ * `FrequencyBodyAccelerometerJerkMean-Y ` - numeric 
+ * `FrequencyBodyAccelerometerJerkMean-Z` - numeric 
+ * `FrequencyBodyAccelerometerJerkSTD-X` - numeric 
+ * `FrequencyBodyAccelerometerJerkSTD-Y ` - numeric 
+ * `FrequencyBodyAccelerometerJerkSTD-Z ` - numeric 
+ * `FrequencyBodyGyroscopeMean-X ` - numeric 
+ * `FrequencyBodyGyroscopeMean-Y` - numeric 
+ * `FrequencyBodyGyroscopeMean-Z` - numeric 
+ * `FrequencyBodyGyroscopeSTD-X` - numeric 
+ * `FrequencyBodyGyroscopeSTD-Y ` - numeric 
+ * `FrequencyBodyGyroscopeSTD-Z ` - numeric 
+ * `FrequencyBodyAccelerometerMagnitudeMean` - numeric 
+ * `FrequencyBodyAccelerometerMagnitudeSTD` numeric 
+ * `FrequencyBodyAccelerometerJerkMagnitudeMean` - numeric 
+ * `FrequencyBodyAccelerometerJerkMagnitudeSTD` - numeric 
+ * `FrequencyBodyGyroscopeMagnitudeMean      `  - numeric 
+ * `FrequencyBodyGyroscopeMagnitudeSTD      `   - numeric 
+ * `FrequencyBodyGyroscopeJerkMagnitudeMean`    - numeric 
+ * `FrequencyBodyGyroscopeJerkMagnitudeSTD`     - numeric 
+      
+
+
